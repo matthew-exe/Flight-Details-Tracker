@@ -1,0 +1,51 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.40.33811.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/matthewgee/source/repos/flight details tracker 1/flight details tracker/aeroplane.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "45ec8642b4c94bfc3dcfc360070ed109a921c6dbcb8b03db18b3e6a639f19582"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/matthewgee/source/repos/flight details tracker 1/flight details tracker/aeroplane.h"
+          },
+          "hashes": {
+            "sha-256": "a0008516f8bd6a84cbcf9635ddf12f01f704aaf939d26abc79bb47762bbadd85"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/matthewgee/source/repos/flight details tracker 1/flight details tracker/aircraft.h"
+          },
+          "hashes": {
+            "sha-256": "08b9abb1e9e63b3d7929b7e81aba1ec89d40e8f69eab8ebb304d5f24373c671c"
+          }
+        }
+      ]
+    }
+  ]
+}
